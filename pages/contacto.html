@@ -12,6 +12,10 @@
     <!--boostrap-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- animate.css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <!-- aos.css -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!--CSS-->
     <link rel="stylesheet" href="styles/styles.css">
     <title>Kevuxxi</title>
@@ -42,48 +46,60 @@
         </nav>
     </header>
     <main>
-        <h1 class="titulo">Contacto</h1>
+        <h1 class="titulo animate__animated animate__slideInUp">Contacto</h1>
 
         <section>
-            <img src="images/presentacion-4.jpg" alt="presentacion de kevuxxi en miami"
-                class="d-block w-50 mx-auto" style=" max-height: 600px;" alt="Primera presentacion de Kevuxxi">
+            <img src="images/presentacion-4.jpg" alt="presentacion de kevuxxi en miami" class="d-block w-50 mx-auto"
+                style=" max-height: 600px;" alt="Primera presentacion de Kevuxxi">
         </section>
 
         <section class="m-2 p-2">
 
             <article class=" container">
-                <h2 class="titulo">Vamos a conectar</h2>
-                <p class="m-2 p-2 text-start">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe eaque
-                    voluptatibus rem odio quos
-                    cumque
-                    quia quidem sequi nulla accusamus tempore, laudantium ipsum explicabo corrupti delectus officiis
-                    ducimus
-                    voluptate harum!</p>
+
+                <div data-aos="zoom-in-left">
+                    <h2 class="titulo">Vamos a conectar</h2>
+                </div>
+                <div data-aos="fade-right">
+                    <p class="m-2 p-2 text-start">¿Tienes una pregunta, una idea genial o simplemente quieres compartir
+                        tu
+                        opinión? ¡Estamos aquí para escucharte! Si deseas ponerte en contacto para preguntar sobre
+                        próximos
+                        shows, colaboraciones, o incluso si tienes un chiste que crees que nos hará reír, no dudes en
+                        escribirnos. Nos encanta conectar con nuestra audiencia y saber qué piensan.</p>
+                </div>
+
+                <div data-aos="fade-left">
+                    <p class="m-2 p-2 text-start">Llena el formulario a continuación y nuestro equipo se pondrá en
+                        contacto
+                        contigo lo antes posible.
+                        Ya sea para una consulta profesional o solo para saludar, ¡nos encantaría saber de ti!</p>
+                </div>
             </article>
+            <div data-aos="fade-down-left">
+                <article class="container">
+                    <form class="row" action="url" method="post">
 
-            <article class=container>
-                <form class="row" action="url" method="post">
+                        <div class="form-group row mb-3 col-sm-6 mx-auto ">
+                            <label for="Nombre" class="form-label  col-sm-12">Nombre</label>
+                            <input type="text" class="form-control-sm" id="exampleFormControlInput1">
+                        </div>
 
-                    <div class="form-group row mb-3 col-sm-6 mx-auto ">
-                        <label for="Nombre" class="form-label  col-sm-12">Nombre</label>
-                        <input type="text" class="form-control-sm" id="exampleFormControlInput1">
-                    </div>
+                        <div class="form-group row mb-3 col-sm-6 mx-auto">
+                            <label for="exampleFormControlInput1" class="form-label col-sm-12">Email address</label>
+                            <input type="email" class="form-control-sm" id="exampleFormControlInput1"
+                                placeholder="name@example.com">
+                        </div>
 
-                    <div class="form-group row mb-3 col-sm-6 mx-auto">
-                        <label for="exampleFormControlInput1" class="form-label col-sm-12">Email address</label>
-                        <input type="email" class="form-control-sm" id="exampleFormControlInput1"
-                            placeholder="name@example.com">
-                    </div>
+                        <div class="form-group row  col-sm-12 mx-auto mb-3">
+                            <label for="exampleFormControlTextarea1" class="form-label col-sm-12">Mensaje</label>
+                            <textarea class="form-control-lg" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        </div>
 
-                    <div class="form-group row  col-sm-12 mx-auto mb-3">
-                        <label for="exampleFormControlTextarea1" class="form-label col-sm-12">Mensaje</label>
-                        <textarea class="form-control-lg" id="exampleFormControlTextarea1" rows="3"></textarea>
-                    </div>
+                        <input type="submit" class="subscribir btn mx-auto col-3" value="Enviar">
 
-                    <input type="submit" class="subscribir btn mx-auto col-3" value="Enviar">
-
-                </form>
-
+                    </form>
+            </div>
             </article>
 
 
@@ -91,13 +107,14 @@
 
     </main>
     <footer class="container-fluid text-center mb-2">
-        <a href="comunidad.html"><img src="sources/instagram.png" alt="instagram logo" width="20px"
-                height="20px"></a>
+        <a href="comunidad.html"><img src="sources/instagram.png" alt="instagram logo" width="20px" height="20px"></a>
         <P>Todos Los Derechos Reservados © 2025 kevuxxi</P>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>AOS.init(); </script>
 
 </body>
 
