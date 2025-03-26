@@ -1,6 +1,4 @@
 body {
     color: $primary-color;
-    background-color: $bs-color;
-
-
+    background-image: linear-gradient(to bottom ,$bs-color,$gradient-color);
 }

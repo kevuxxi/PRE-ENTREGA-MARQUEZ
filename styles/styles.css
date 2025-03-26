@@ -11,7 +11,7 @@ body {
 
 body {
   color: #333333;
-  background-color: #F4E1C1;
+  background-image: linear-gradient(to bottom, #F4E1C1, #8A8A8A);
 }
 
 .boletos {
