@@ -1,15 +1,22 @@
 .barra .navbar-brand {
-    color: $primary-color;
+    color: $bs-color;
+
 }
 
 .barra .navbar-nav .nav-link {
-    color: $primary-color;
+    color: $bs-color;
+    font-weight: bold;
 }
 
 .barra .navbar-nav .nav-link:hover {
-    color: $bs-color;
+    color:$hovercolor;
+    
+
 }
 
 .barra {
-    background-color: $secondary-color !important;
+    background-color: $primary-color !important;
+    border-bottom: 1px solid $primary-color;
+    font-weight: bold;
+
 }

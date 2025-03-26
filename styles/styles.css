@@ -10,16 +10,86 @@ body {
 }
 
 body {
-  color: rgb(235, 14, 73);
-  background-image: linear-gradient(to bottom, rgb(23, 157, 252), rgb(17, 29, 107));
+  color: #333333;
+  background-color: #F4E1C1;
+}
+
+.boletos {
+  margin: 0 auto;
+  max-width: 960px;
+  padding: 24px 32px 8px;
+}
+
+.boletos-container {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.boletos-container-fechas {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  background-color: #333333;
+  padding: 18px 24px;
+  margin-bottom: 8px;
+  align-items: center;
+}
+
+.fecha {
+  font-size: 20px;
+  color: #F4E1C1;
+  font-weight: 900;
+  line-height: 44px;
+  margin: 0;
+  margin-right: 24px;
+  padding-right: 24px;
+  min-width: 110px;
+  border-right: 1px solid #F4E1C1;
+  text-transform: uppercase;
+}
+
+.contenido {
+  flex-grow: 1;
+}
+
+.monologo {
+  line-height: 26px;
+  margin: 0;
+  font-size: 24px;
+  color: #F4E1C1;
+  font-weight: 900;
+  line-height: 26px;
+  width: 100%;
+}
+
+.ciudad {
+  line-height: 26px;
+  font-size: 15px;
+  color: #F4E1C1;
+  margin: 0;
+}
+
+.comprar {
+  font-size: 20px;
+  font-weight: 700;
+  text-decoration: none;
+  background-color: #F4E1C1;
+  padding: 18px 32px;
+  border-radius: 12px;
+  color: #333333;
+  display: inline-block;
+  white-space: nowrap;
+  flex-shrink: 0;
 }
 
 .comprar:hover {
-  color: whitesmoke;
+  color: #A61C2B;
+  border-bottom: 5px solid #A61C2B;
 }
 
 a {
-  color: rgb(235, 14, 73);
+  color: #F4E1C1;
   text-decoration: none;
 }
 
@@ -27,6 +97,7 @@ a {
   text-align: center;
   padding: 8px;
   margin: 10px;
+  font-weight: bolder;
 }
 
 .animate__animated.animate__slideInUp {
@@ -34,29 +105,32 @@ a {
 }
 
 .barra .navbar-brand {
-  color: rgb(235, 14, 73);
+  color: #F4E1C1;
 }
 
 .barra .navbar-nav .nav-link {
-  color: rgb(235, 14, 73);
+  color: #F4E1C1;
+  font-weight: bold;
 }
 
 .barra .navbar-nav .nav-link:hover {
-  color: rgb(23, 157, 252);
+  color: #A61C2B;
 }
 
 .barra {
-  background-color: rgb(17, 29, 107) !important;
+  background-color: #333333 !important;
+  border-bottom: 1px solid #333333;
+  font-weight: bold;
 }
 
 .subscribir {
-  color: rgb(235, 14, 73);
-  background-color: rgb(17, 29, 107);
+  color: #333333;
+  background-color: #D72638;
 }
 
 .subscribir:hover {
-  color: rgb(23, 157, 252);
-  background-color: rgb(235, 14, 73);
+  color: #F4E1C1;
+  background-color: #333333;
 }
 
 /*# sourceMappingURL=styles.css.map */

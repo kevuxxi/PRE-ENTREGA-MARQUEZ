@@ -1,6 +1,6 @@
 .titulo {
     text-align: center;
     @include header-position(10px,8px);
+    font-weight: bolder;
 }
-
 .animate__animated.animate__slideInUp {animation-duration: 100ms;}
