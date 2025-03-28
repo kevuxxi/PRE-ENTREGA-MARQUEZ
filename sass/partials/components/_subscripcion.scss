@@ -1,10 +1,11 @@
 .subscribir {
-    color:$primary-color;
-    background-color: $secondary-color;
+    color: $primary-color;
+    background-color: $bs-color;
+    font-weight: bold;
 }
 
 .subscribir:hover {
-    color: $bs-color;
-    background-color: $primary-color;
-    ;
+    color: $hovercolor;
+    border-bottom: 5px solid $hovercolor;
+    background-color: $bs-color;
 }

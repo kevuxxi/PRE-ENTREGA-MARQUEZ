@@ -125,12 +125,19 @@ a {
 
 .subscribir {
   color: #333333;
-  background-color: #D72638;
+  background-color: #F4E1C1;
+  font-weight: bold;
 }
 
 .subscribir:hover {
-  color: #F4E1C1;
-  background-color: #333333;
+  color: #A61C2B;
+  border-bottom: 5px solid #A61C2B;
+  background-color: #F4E1C1;
+}
+
+.subtitulo {
+  font-weight: bold;
+  text-decoration: underline;
 }
 
 /*# sourceMappingURL=styles.css.map */
