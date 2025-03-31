@@ -14,6 +14,25 @@ body {
   background-image: linear-gradient(to bottom, #F4E1C1, #8A8A8A);
 }
 
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  background-color: #333333;
+  color: #F4E1C1;
+}
+
+footer a img {
+  margin-bottom: 10px;
+}
+
+footer p {
+  margin: 0;
+  font-size: 14px;
+}
+
 .boletos {
   margin: 0 auto;
   max-width: 960px;
