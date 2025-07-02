@@ -1,0 +1,94 @@
+/* Reset general */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", sans-serif;
+}
+
+/* Fondo general */
+body {
+    background-color: #121212;
+    color: #e0e0e0;
+}
+
+/* NAVBAR */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1e1e1e;
+    padding: 1rem 2rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.6);
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.navbar .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #ffb74d;
+}
+
+.navbar .nav-links {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.navbar .nav-links a {
+    text-decoration: none;
+    color: #e0e0e0;
+    transition: color 0.2s;
+}
+
+.navbar .nav-links a:hover {
+    color: #ffb74d;
+}
+
+/* CART WIDGET */
+.cart-widget {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    background-color: #292929;
+    padding: 0.4rem 0.8rem;
+    border-radius: 8px;
+    color: #ffcc80;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.carrito {
+
+    width: 50px;
+    height: 50px;
+}
+
+.cart-widget:hover {
+    background-color: #3d3d3d;
+}
+
+
+/* links */
+.contenedor-links {
+    display: flex;
+    gap: 20px;
+}
+
+.item-list-container {
+    padding: 3rem 2rem;
+    text-align: center;
+}
+
+.item-list-container h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #ffa726;
+}
+
+.item-list-container p {
+    font-size: 1.1rem;
+    color: #cccccc;
+}
