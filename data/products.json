@@ -1,0 +1,27 @@
+[
+  {
+    "id": 1,
+    "title": "Celular Smartphone",
+    "description": "El último modelo con cámara de alta resolución.",
+    "code": "A123",
+    "price": 550,
+    "status": true,
+    "stock": 95,
+    "category": "Electrónica",
+    "thumbnails": [
+      "ruta/imagen1.jpg",
+      "ruta/imagen2.jpg"
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Camiseta",
+    "description": "Camiseta de fútbol",
+    "code": "CAM001",
+    "price": 20,
+    "status": true,
+    "stock": 50,
+    "category": "ropa",
+    "thumbnails": []
+  }
+]
